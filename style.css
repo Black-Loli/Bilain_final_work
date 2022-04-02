@@ -1,0 +1,140 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 810px;
+    background: #2B2C3A;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+div.leftbar{
+    display: block;
+    background: #9CA5EC0A;
+    width: 280px;
+    height: 810px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+div.Group1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 138px;
+    height: 37px;
+    left: 30px;
+    top: 19px;
+}
+
+div.Group1 svg{
+    position: absolute;
+    width: 41px;
+    height: 8px;
+    left: 2px;
+    top: 7px;
+}
+
+div.Group1 p{
+    position: absolute;
+    height: 16px;
+    left: 110px;
+    top: 2px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+div.Group2{
+    position: absolute;
+    left: 0;
+    top: 27.27%;
+}
+
+div.Group2 p{
+    position: absolute;
+    height: 34px;
+    left: 1px;
+    top: 1px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.leftbar .line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 72px;
+    background: rgba(216, 216, 216, 0.1);
+}
+
+.line1{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 570px;
+    background: rgba(216, 216, 216, 0.06);
+}
+
+div.switcher{
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 30px;
+    top: 757px;
+}
+
+div.switcher p{
+    position: absolute;
+    height: 15px;
+    left: 0;
+    top: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+}
+
+div.switcher input[type='checkbox'].checkbox {
+    display: none;
+}
+
+div.switcher input[type='checkbox'].checkbox + label {
+    position: relative;
+    display: block;
+}
+
+div.switcher input[type='checkbox'].checkbox + label:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 170px;
+    width: 42px;
+    height: 22px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+div.switcher input[type='checkbox'].checkbox + label:before {
+    content: "";
+    position: absolute;
+    left: 174px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    background: gray;
+    transition: left 100ms ease-in-out;
+}
+
+div.switcher input[type='checkbox'].checkbox:checked + label:before {
+    left: 195px;
+    background: #6F6EFF;
+    box-shadow: 0 0 12px rgba(111, 110, 255);
+}
