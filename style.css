@@ -7,6 +7,7 @@ body{
     font-family: 'Jost', sans-serif;
 }
 
+
 div.leftbar{
     display: block;
     background: #9CA5EC0A;
@@ -592,4 +593,17 @@ div.item a.cta h5{
     font-weight: 400;
     color: #FFFFFF;
     margin: 0;
+}
+
+div.weekly_quests a.cta:hover{
+    background: linear-gradient(90deg, #4e4dbd 0%, #4b4ab0 100%);
+    cursor: pointer;
+}
+
+div.topbar a.faq:hover,
+div.topbar a.pod:hover,
+div.topbar a.set:hover,
+div.weekly_quests a.arrow_left:hover,
+div.weekly_quests a.arrow_right:hover{
+    cursor: pointer;
 }
