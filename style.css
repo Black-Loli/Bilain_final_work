@@ -440,24 +440,66 @@ div.weekly_quests a.arrow_left svg{
 div.item{
     height: 294px;
     width: 255px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 6px;
+}
+
+div.item div.action{
+    width: 255px;
+    height: 144px;
+    border-radius: 6px 6px 0 0;
 }
 
 div.item-1{
     position: absolute;
     left: 0;
     top: 66px;
-    background: rgba(255, 255, 255, 0.04);
-    border-radius: 6px;
+}
+
+div.item-2{
+    position: absolute;
+    left: 266px;
+    top: 66px;
+}
+
+div.item-3{
+    position: absolute;
+    left: 532px;
+    top: 66px;
+}
+
+div.item-4{
+    position: absolute;
+    left: 795px;
+    top: 66px;
 }
 
 div.item-1 div.action{
     background-image: url("icons/maik-jonietz-_yMciiStJyY-unsplash.png");
     position: absolute;
-    width: 255px;
-    height: 144px;
     left: 0;
     top: 0;
-    border-radius: 6px 6px 0 0;
+}
+
+div.item-2 div.action{
+    background-image: url("icons/ferenc-almasi-NzERTNpnaDw-unsplash.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+div.item-3 div.action{
+    background-image: url("icons/pankaj-patel-SXihyA4oEJs-unsplash.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+div.item-4 div.action{
+    background-image: url("icons/nick-karvounis-TkZYCXmrKK4-unsplash.png");
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 div.item div.lec{
