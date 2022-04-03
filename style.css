@@ -35,14 +35,12 @@ div.Group1 svg{
     top: 7px;
 }
 
-div.Group1 p{
+div.Group1 h6{
     position: absolute;
     height: 16px;
     left: 110px;
     top: 2px;
     font-weight: 500;
-    font-size: 11px;
-    line-height: 16px;
     color: #FFFFFF;
     margin: 0;
 }
@@ -53,15 +51,15 @@ div.Group2{
     top: 27.27%;
 }
 
-div.Group2 p{
+div.Group2 h2{
     position: absolute;
     height: 34px;
     left: 1px;
     top: 1px;
     font-weight: 700;
     font-size: 22px;
-    line-height: 32px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .leftbar .line{
@@ -90,7 +88,7 @@ div.switcher{
     top: 757px;
 }
 
-div.switcher p{
+div.switcher h5{
     position: absolute;
     height: 15px;
     left: 0;
@@ -148,15 +146,16 @@ div.topbar{
     border-bottom: 1px solid rgba(216, 216, 216, 0.1);
 }
 
-div.topbar p{
+div.topbar a{
     height: 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 10px;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
-div.topbar p.faq{
+div.topbar a.faq{
     position: absolute;
     left: 4.74%;
     top: 17px;
@@ -164,14 +163,14 @@ div.topbar p.faq{
     margin: 0;
 }
 
-div.topbar p.pod{
+div.topbar a.pod{
     position: absolute;
     left: 9.4%;
     top: 17px;
     margin: 0;
 }
 
-div.topbar p.set{
+div.topbar a.set{
     position: absolute;
     left: 17.67%;
     top: 17px;
@@ -197,16 +196,12 @@ div.topbar div.coins_copy{
     border-radius: 5px;
 }
 
-div.topbar div.coins_copy p{
+div.topbar div.coins_copy h5{
     position: absolute;
-    width: 78px;
-    height: 10px;
-    left: 9px;
-    top: 7px;
-    font-style: normal;
+    width: 88px;
+    left: 7px;
+    top: 4px;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 10px;
     color: #FFFFFF;
     margin: 0;
 }
@@ -221,16 +216,12 @@ div.topbar div.coins{
     border-radius: 5px;
 }
 
-div.topbar div.coins p{
+div.topbar div.coins h5{
     position: absolute;
     width: 65px;
-    height: 10px;
     left: 9px;
-    top: 7px;
-    font-style: normal;
+    top: 4px;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 10px;
     color: #FFFFFF;
     margin: 0;
 }
@@ -262,24 +253,22 @@ div.topbar div.energy div.icon1{
     border-radius: 4px;
 }
 
-div.topbar div.energy p.num{
+div.topbar div.energy h5.num{
     position: absolute;
     height: 10px;
     left: 31px;
-    top: 9px;
+    top: 4px;
     font-weight: 600;
-    font-size: 13px;
     color: #FFFFFF;
     margin: 0;
 }
 
-div.topbar div.energy p.hour{
+div.topbar div.energy h6.hour{
     position: absolute;
     height: 10px;
     left: 60.36%;
-    top: 8px;
+    top: 6px;
     font-weight: 400;
-    font-size: 11px;
     color: rgba(255, 255, 255, 0.6);
     margin: 0;
 }
@@ -298,10 +287,10 @@ div.topbar div.account_info div.avatar{
     height: 44px;
     left: 0;
     top: 0;
-    background-image: url("icons/mulyadi-kL4coQHVj_A-unsplash.svg");
+    background-image: url("./icons/mulyadi-kL4coQHVj_A-unsplash.svg");
 }
 
-div.topbar div.account_info p.name{
+div.topbar div.account_info h5.name{
     position: absolute;
     height: 10px;
     left: 57px;
@@ -323,16 +312,15 @@ div.topbar div.account_info div.online{
 div.topbar div.account_info div.online svg{
     position: absolute;
     left: 0;
-    top: 3px;
+    top: 7px;
 }
 
-div.topbar div.account_info div.online p{
+div.topbar div.account_info div.online h5{
     position: absolute;
     height: 10px;
     left: 11px;
-    top: 1px;
+    top: 0;
     font-weight: 600;
-    font-size: 13px;
     color: #24CB8D;
     margin: 0;
 }
@@ -348,14 +336,197 @@ div.topbar div.account_info div.pro{
     border-radius: 4px;
 }
 
-div.topbar div.account_info div.pro p{
+div.topbar div.account_info div.pro h5{
     position: absolute;
     height: 10px;
     left: 8px;
-    top: 2px;
+    top: 0;
     font-weight: 400;
     font-size: 11px;
     text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+div.weekly_quests{
+    position: absolute;
+    width: 1050px;
+    height: 360px;
+    left: 335px;
+    top: 112px;
+}
+
+div.weekly_quests h6{
+    position: absolute;
+    height: 16px;
+    left: 0;
+    top: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+}
+
+div.weekly_quests h2{
+    position: absolute;
+    height: 18px;
+    left: 0;
+    top: 23px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+div.weekly_quests a.cta{
+    position: absolute;
+    width: 86px;
+    height: 30px;
+    left: 889px;
+    top: 11px;
+    background: linear-gradient(90deg, #6B69F9 0%, #6F6EFF 100%);
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+div.weekly_quests a.cta h2{
+    position: absolute;
+    width: 80px;
+    left: 13px;
+    top: 7px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: none;
+}
+
+div.weekly_quests a.arrow_right{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 985px;
+    top: 11px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+div.weekly_quests a.arrow_right svg{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+div.weekly_quests a.arrow_left{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1020px;
+    top: 11px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+div.weekly_quests a.arrow_left svg{
+    position: absolute;
+    left: 12px;
+    top: 10px;
+}
+
+div.item{
+    height: 294px;
+    width: 255px;
+}
+
+div.item-1{
+    position: absolute;
+    left: 0;
+    top: 66px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 6px;
+}
+
+div.item-1 div.action{
+    background-image: url("icons/maik-jonietz-_yMciiStJyY-unsplash.png");
+    position: absolute;
+    width: 255px;
+    height: 144px;
+    left: 0;
+    top: 0;
+    border-radius: 6px 6px 0 0;
+}
+
+div.item div.lec{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    height: 20px;
+    width: 50px;
+    background: #6F6EFF;
+    border-radius: 3px;
+}
+
+div.item div.lec h6{
+    position: absolute;
+    width: 39px;
+    height: 12px;
+    left: 6px;
+    top: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 0;
+    text-transform: none;
+}
+
+div.item h4{
+    position: absolute;
+    height: 12px;
+    left: 15px;
+    top: 159px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+div.item h5{
+    position: absolute;
+    height: 18px;
+    left: 15px;
+    top: 181px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+}
+
+div.item div.line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 232px;
+    background: rgba(216, 216, 216, 0.1);
+}
+
+div.item div.group{
+    position: absolute;
+    width: 225px;
+    height: 30px;
+    left: 15px;
+    top: 249px;
+}
+
+div.item div.group h5{
+    position: absolute;
+    height: 10px;
+    left: 10px;
+    top: 10px;
+    font-weight: 400;
     color: #FFFFFF;
     margin: 0;
 }
