@@ -8,6 +8,8 @@ body{
 }
 
 
+
+
 div.leftbar{
     display: block;
     background: #9CA5EC0A;
@@ -44,6 +46,7 @@ div.Group1 h6{
     font-weight: 500;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
 div.Group2{
@@ -61,6 +64,7 @@ div.Group2 h2{
     font-size: 22px;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
 .leftbar .line{
@@ -98,6 +102,7 @@ div.switcher h5{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     margin: 0;
+    cursor: default;
 }
 
 div.switcher input[type='checkbox'].checkbox {
@@ -205,6 +210,7 @@ div.topbar div.coins_copy h5{
     font-weight: 400;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
 div.topbar div.coins{
@@ -225,6 +231,7 @@ div.topbar div.coins h5{
     font-weight: 400;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
 div.topbar div.energy{
@@ -262,6 +269,7 @@ div.topbar div.energy h5.num{
     font-weight: 600;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
 div.topbar div.energy h6.hour{
@@ -272,6 +280,7 @@ div.topbar div.energy h6.hour{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     margin: 0;
+    cursor: default;
 }
 
 div.topbar div.account_info{
@@ -300,6 +309,7 @@ div.topbar div.account_info h5.name{
     font-size: 14px;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
 div.topbar div.account_info div.online{
@@ -324,6 +334,7 @@ div.topbar div.account_info div.online h5{
     font-weight: 600;
     color: #24CB8D;
     margin: 0;
+    cursor: default;
 }
 
 div.topbar div.account_info div.pro{
@@ -347,17 +358,28 @@ div.topbar div.account_info div.pro h5{
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
+}
+
+div.weekly{
+    width: 1050px;
+    height: 360px;
 }
 
 div.weekly_quests{
     position: absolute;
-    width: 1050px;
-    height: 360px;
     left: 335px;
     top: 112px;
 }
 
-div.weekly_quests h6{
+div.weekly_quests_copy{
+    position: absolute;
+    left: 335px;
+    top: 532px;
+    margin-bottom: 50px;
+}
+
+div.weekly h6{
     position: absolute;
     height: 16px;
     left: 0;
@@ -366,9 +388,10 @@ div.weekly_quests h6{
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.4);
     margin: 0;
+    cursor: default;
 }
 
-div.weekly_quests h2{
+div.weekly h2{
     position: absolute;
     height: 18px;
     left: 0;
@@ -378,9 +401,10 @@ div.weekly_quests h2{
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
-div.weekly_quests a.cta{
+div.weekly a.cta{
     position: absolute;
     width: 86px;
     height: 30px;
@@ -391,7 +415,7 @@ div.weekly_quests a.cta{
     text-decoration: none;
 }
 
-div.weekly_quests a.cta h2{
+div.weekly a.cta h2{
     position: absolute;
     width: 80px;
     left: 13px;
@@ -402,7 +426,7 @@ div.weekly_quests a.cta h2{
     text-transform: none;
 }
 
-div.weekly_quests a.arrow_right{
+div.weekly a.arrow_right{
     position: absolute;
     width: 30px;
     height: 30px;
@@ -414,13 +438,13 @@ div.weekly_quests a.arrow_right{
     border-radius: 4px;
 }
 
-div.weekly_quests a.arrow_right svg{
+div.weekly a.arrow_right svg{
     position: absolute;
     left: 10px;
     top: 10px;
 }
 
-div.weekly_quests a.arrow_left{
+div.weekly a.arrow_left{
     position: absolute;
     width: 30px;
     height: 30px;
@@ -432,7 +456,7 @@ div.weekly_quests a.arrow_left{
     border-radius: 4px;
 }
 
-div.weekly_quests a.arrow_left svg{
+div.weekly a.arrow_left svg{
     position: absolute;
     left: 12px;
     top: 10px;
@@ -524,6 +548,7 @@ div.item div.lec h6{
     color: #FFFFFF;
     margin: 0;
     text-transform: none;
+    cursor: default;
 }
 
 div.item h4{
@@ -534,6 +559,7 @@ div.item h4{
     font-weight: 400;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
 div.item h5{
@@ -545,6 +571,7 @@ div.item h5{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     margin: 0;
+    cursor: default;
 }
 
 div.item div.line{
@@ -572,6 +599,7 @@ div.item div.group h5{
     font-weight: 400;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
 div.item a.cta{
@@ -593,9 +621,10 @@ div.item a.cta h5{
     font-weight: 400;
     color: #FFFFFF;
     margin: 0;
+    cursor: default;
 }
 
-div.weekly_quests a.cta:hover{
+div.weekly a.cta:hover{
     background: linear-gradient(90deg, #4e4dbd 0%, #4b4ab0 100%);
     cursor: pointer;
 }
@@ -603,7 +632,12 @@ div.weekly_quests a.cta:hover{
 div.topbar a.faq:hover,
 div.topbar a.pod:hover,
 div.topbar a.set:hover,
-div.weekly_quests a.arrow_left:hover,
-div.weekly_quests a.arrow_right:hover{
+div.weekly a.arrow_left:hover,
+div.weekly a.arrow_right:hover{
     cursor: pointer;
+}
+
+div.weekly a.arrow_left:hover,
+div.weekly a.arrow_right:hover{
+    background: #9CA5EC0A;
 }
