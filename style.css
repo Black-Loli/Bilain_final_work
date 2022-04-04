@@ -7,15 +7,12 @@ body{
     font-family: 'Jost', sans-serif;
 }
 
-
-
-
 div.leftbar{
     display: block;
     background: #9CA5EC0A;
     width: 280px;
     height: 810px;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
 }
@@ -144,12 +141,15 @@ div.switcher input[type='checkbox'].checkbox:checked + label:before {
 }
 
 div.topbar{
-    position: absolute;
+    overflow: hidden;
+    position: fixed;
     width: 1160px;
-    height: 58px;
+    height: 72px;
     left: 280px;
-    top: 14px;
+    top: 0;
+    background: #2B2C3A;
     border-bottom: 1px solid rgba(216, 216, 216, 0.1);
+    z-index: 500;
 }
 
 div.topbar a{
@@ -164,7 +164,7 @@ div.topbar a{
 div.topbar a.faq{
     position: absolute;
     left: 4.74%;
-    top: 17px;
+    top: 31px;
     text-transform: uppercase;
     margin: 0;
 }
@@ -172,21 +172,21 @@ div.topbar a.faq{
 div.topbar a.pod{
     position: absolute;
     left: 9.4%;
-    top: 17px;
+    top: 31px;
     margin: 0;
 }
 
 div.topbar a.set{
     position: absolute;
     left: 17.67%;
-    top: 17px;
+    top: 31px;
     margin: 0;
 }
 
 div.topbar .line{
     position: absolute;
     left: 25.69%;
-    top: 17.24%;
+    top: 25px;
     width: 1px;
     height: 24px;
     background: rgba(216, 216, 216, 0.1);
@@ -197,7 +197,7 @@ div.topbar div.coins_copy{
     width: 96px;
     height: 24px;
     left: 611px;
-    top: 10px;
+    top: 24px;
     background: rgba(255, 255, 255, 0.06);
     border-radius: 5px;
 }
@@ -218,7 +218,7 @@ div.topbar div.coins{
     width: 81px;
     height: 24px;
     left: 717px;
-    top: 10px;
+    top: 24px;
     background: rgba(255, 255, 255, 0.06);
     border-radius: 5px;
 }
@@ -239,7 +239,7 @@ div.topbar div.energy{
     width: 111px;
     height: 24px;
     left: 808px;
-    top: 10px;
+    top: 24px;
     background: rgba(255, 255, 255, 0.06);
     border-radius: 5px;
 }
@@ -286,7 +286,7 @@ div.topbar div.energy h6.hour{
 div.topbar div.account_info{
     position: absolute;
     left: 930px;
-    top: 0;
+    top: 14px;
     width: 190px;
     height: 44px;
 }
