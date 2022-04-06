@@ -477,22 +477,14 @@ div.weekly {
 }
 
 div.weekly h6 {
-    position: absolute;
-    height: 16px;
-    left: 0;
-    top: 0;
     font-weight: 400;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.4);
-    margin: 0;
+    margin: 0 0 7px;
     cursor: default;
 }
 
 div.weekly h2 {
-    position: absolute;
-    height: 18px;
-    left: 0;
-    top: 23px;
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
@@ -501,34 +493,40 @@ div.weekly h2 {
     cursor: default;
 }
 
+div.weekly div.list-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+div.weekly div.list-button-item{
+    width: 161px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 div.weekly a.cta {
-    position: absolute;
     width: 86px;
     height: 30px;
-    left: 889px;
-    top: 11px;
     background: linear-gradient(90deg, #6B69F9 0%, #6F6EFF 100%);
     border-radius: 4px;
     text-decoration: none;
 }
 
 div.weekly a.cta h5 {
-    position: absolute;
-    left: 13px;
-    top: 7px;
+    text-align: center;
+    margin: 7px 0;
     font-weight: 400;
     font-size: 12px;
     color: #FFFFFF;
     text-transform: none;
-    margin: 0;
 }
 
 div.weekly a.arrow_right {
-    position: absolute;
-    width: 30px;
     height: 30px;
-    left: 985px;
-    top: 11px;
     text-decoration: none;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-sizing: border-box;
@@ -536,17 +534,11 @@ div.weekly a.arrow_right {
 }
 
 div.weekly a.arrow_right svg {
-    position: absolute;
-    left: 10px;
-    top: 10px;
+    margin: 10px;
 }
 
 div.weekly a.arrow_left {
-    position: absolute;
-    width: 30px;
     height: 30px;
-    left: 1020px;
-    top: 11px;
     text-decoration: none;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-sizing: border-box;
@@ -554,9 +546,13 @@ div.weekly a.arrow_left {
 }
 
 div.weekly a.arrow_left svg {
-    position: absolute;
-    left: 12px;
-    top: 10px;
+    margin: 10px;
+}
+
+div.it{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 div.item {
@@ -564,6 +560,7 @@ div.item {
     width: 255px;
     background: rgba(255, 255, 255, 0.04);
     border-radius: 6px;
+    position: relative;
 }
 
 div.item div.action {
@@ -572,56 +569,20 @@ div.item div.action {
     border-radius: 6px 6px 0 0;
 }
 
-div.item-1 {
-    position: absolute;
-    left: 0;
-    top: 66px;
-}
-
-div.item-2 {
-    position: absolute;
-    left: 266px;
-    top: 66px;
-}
-
-div.item-3 {
-    position: absolute;
-    left: 532px;
-    top: 66px;
-}
-
-div.item-4 {
-    position: absolute;
-    left: 795px;
-    top: 66px;
-}
-
 div.item-1 div.action {
     background-image: url("icons/maik-jonietz-_yMciiStJyY-unsplash.png");
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 div.item-2 div.action {
     background-image: url("icons/ferenc-almasi-NzERTNpnaDw-unsplash.png");
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 div.item-3 div.action {
     background-image: url("icons/pankaj-patel-SXihyA4oEJs-unsplash.png");
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 div.item-4 div.action {
     background-image: url("icons/nick-karvounis-TkZYCXmrKK4-unsplash.png");
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 div.item div.lec {
@@ -635,39 +596,28 @@ div.item div.lec {
 }
 
 div.item div.lec h6 {
-    position: absolute;
     width: 39px;
     height: 12px;
-    left: 6px;
-    top: 2px;
     font-weight: 400;
     font-size: 12px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 2px 5px;
     text-transform: none;
     cursor: default;
 }
 
 div.item h4 {
-    position: absolute;
-    height: 12px;
-    left: 15px;
-    top: 159px;
     font-weight: 400;
     color: #FFFFFF;
-    margin: 0;
+    margin: 15px 15px 3px;
     cursor: default;
 }
 
-div.item h5 {
-    position: absolute;
-    height: 18px;
-    left: 15px;
-    top: 181px;
+div.item h5.description {
     font-weight: 400;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
-    margin: 0;
+    margin: 0 15px;
     cursor: default;
 }
 
@@ -676,33 +626,30 @@ div.item div.line {
     width: 100%;
     height: 1px;
     left: 0;
-    top: 232px;
+    bottom: 61px;
     background: rgba(216, 216, 216, 0.1);
 }
 
 div.item div.group {
     position: absolute;
+    bottom: 15px;
+    left: 15px;
     width: 225px;
     height: 30px;
-    left: 15px;
-    top: 249px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 div.item div.group h5 {
-    position: absolute;
-    height: 10px;
-    left: 10px;
-    top: 10px;
     font-weight: 400;
     color: #FFFFFF;
-    margin: 0;
     cursor: default;
+    padding: 3px 0;
+    margin: 0;
 }
 
 div.item a.cta {
-    position: absolute;
-    left: 130px;
-    top: 2px;
     width: 89px;
     height: 30px;
     background: linear-gradient(90deg, #6B69F9 0%, #6F6EFF 100%);
@@ -711,14 +658,11 @@ div.item a.cta {
 }
 
 div.item a.cta h5 {
-    position: absolute;
-    height: 10px;
-    left: 18px;
-    top: 5px;
     font-weight: 400;
     color: #FFFFFF;
-    margin: 0;
     cursor: default;
+    margin: 7px 18px;
+    padding: 0;
 }
 
 div.weekly a.cta:hover,
